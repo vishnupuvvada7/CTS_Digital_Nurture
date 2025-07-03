@@ -12,3 +12,6 @@ target/
 # Ignore temporary files
 *.log
 *.tmp
+
+# Ignore all .gitignore files inside subfolders (keep only root one)
+**/.gitignore
