@@ -15,3 +15,6 @@ target/
 
 # Ignore all .gitignore files inside subfolders (keep only root one)
 **/.gitignore
+
+**/.metadata/
+**/.metadata
