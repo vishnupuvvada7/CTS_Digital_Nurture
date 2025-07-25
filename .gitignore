@@ -43,3 +43,4 @@ npm-debug.log*
 yarn-error.log*
 coverage/
 public/build/
+README.md
