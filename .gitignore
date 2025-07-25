@@ -8,13 +8,38 @@
 bin/
 out/
 target/
+*.jar
+*.war
+*.ear
+
+# Ignore Java IDE files
+.project
+.classpath
+.settings/
 
 # Ignore temporary files
 *.log
 *.tmp
+hs_err_pid*.log
 
 # Ignore all .gitignore files inside subfolders (keep only root one)
 **/.gitignore
 
+# Ignore metadata files
 **/.metadata/
 **/.metadata
+
+# React specific ignores
+**/package.json
+**/package-lock.json
+node_modules/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-error.log*
+coverage/
+public/build/
