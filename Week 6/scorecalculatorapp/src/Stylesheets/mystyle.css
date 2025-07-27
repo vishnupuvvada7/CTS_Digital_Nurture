@@ -1,0 +1,22 @@
+.formatstyle {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Name span {
+  color: blue;
+}
+
+.School span {
+  color: purple;
+}
+
+.Total span {
+  color: red;
+}
+
+.Score span {
+  color: green;
+  font-weight: bold;
+}
